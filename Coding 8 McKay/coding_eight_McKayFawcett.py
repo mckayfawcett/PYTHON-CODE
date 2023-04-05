@@ -54,6 +54,8 @@ def input_state(filename):
     infile.close()
 
 
+#CREATIVE ELEMENT: Ask the user for a number and display all states with that number of letters in the name
+
 def input_number(filename):
     'This function asks the user to input a number and is will display all the states with that number of letters in is name'
     userinput = int(input("Enter a number "))
@@ -67,3 +69,6 @@ def input_number(filename):
 
 
 main()
+
+#This would have been a tricky program had we not gone over it in class. I followed along in class and was able to understand the different ways to access information on a file and take from it.
+#I really like this program and was happy when it worked. I liked my creative elment I was able to use what I learned from before and apply it there.
